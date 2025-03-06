@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Internal</title>
+    <style>
+        /* selector: tag |   #id wajib unik | .class */
+      body {
+        background-color: beige;
+        margin: 30px;
+      }
+
+      p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: chocolate;
+    }
+    
+      .new {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      #check {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: lighter;
+        margin-top: 2px;
+      }
+
+      .pos {
+        position: absolute;
+        background-color: brown;
+        width: 100px;
+        height: 100px;
+        right: 10px;
+        top: 10px;
+        border-radius: 100%;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="new">Paragraf 0</p>
+    <p id="check">Just a series of paragraph</p>
+    <p>Paragraf 1</p>
+    <p>Paragraf 2</p>
+    <p>Paragraf 3</p>
+    <p>Paragraf 4</p>
+    <p>Paragraf 5</p>
+
+    <input type="button" value="Hello" class="pos">
+    <div></div>
+  </body>
+</html>

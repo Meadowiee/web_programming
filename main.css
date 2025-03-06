@@ -1,0 +1,80 @@
+body {
+    /* margin itu ke luar, padding ke dalam */
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+br {
+    margin-bottom: 200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+#header {
+    height: 100px;
+    align-items: center;
+    display: flex;
+}
+
+#menu {
+    height: 30px;
+    background-color: lightsalmon;
+    padding: 10px 10px 0px 10px;
+    align-items: center;
+    font-weight: 700;
+}
+
+#content {
+    padding: 0px 10px 0px 10px;
+}
+
+.biodata {
+    font-weight: bold;
+}
+
+.waktu {
+    text-align: end;
+    font-style: italic;
+}
+
+.label {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.separator {
+    vertical-align: top
+}
+
+.tombol {
+    width: 80px;
+    height: 26px;
+    background-color: orange;
+    border-radius: 6px;
+    border-width: 0px;
+    color: white;
+}
+
+.tombol:hover {
+    background-color: rgba(255, 166, 0, 0.758);
+}
+
+::selection {
+    background-color: lightsalmon;
+}
