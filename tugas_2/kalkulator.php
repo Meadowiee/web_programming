@@ -30,7 +30,6 @@
                 </div>
                 <div class="card-footer">
                     <div class="d-flex justify-content-end m-2 gap-1">
-                        <a href="member.php" class="btn btn-secondary">Kembali</a>
                         <button type="submit" class="btn btn-primary">Hitung</button>
                     </div>
                 </div>

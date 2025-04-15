@@ -18,8 +18,9 @@
 </head>
 <body>
     <div class="d-flex justify-content-center align-items-center vh-100">
-        <div class="card shadow p-4 text-center rounded-4" style="width: 100%; max-width: 450px;">
-            <h2 class="mb-4">Log in</h2>
+        <div class="card shadow p-4 text-center rounded-4" style="width: 100%; max-width: 325px;">
+            <h2>Login</h2>
+            <p class="text-muted mb-4 fs-6">Enter your credentials</p>
             <form action="login.php" method="post">
                 <div class="mb-3 text-start">
                     <label for="username" class="form-label">Username</label>
